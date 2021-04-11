@@ -1,0 +1,134 @@
+
+  body{ 
+      font-family: Poppins, Serif; 
+  } 
+.imagencabecera{ 
+    float: right;
+ width: 40%;
+}
+
+    .temas{ 
+    padding: 0 20px; 
+    font-weight: bold; 
+   } 
+   .logounad{ 
+       float: left;
+    width: 60%;
+} 
+   
+    .menu_Contenedor{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: rgba(35, 214, 89, 0.329); 
+    height: 50px; 
+    width: 100%; 
+    border-bottom: 2px solid rgb(235, 163, 8); 
+} 
+.subtemas{ 
+    position: absolute; 
+  display: none; 
+   background: rgb(48, 187, 90);    
+    border: none; 
+} 
+
+ .a-tema{ 
+     color: black; 
+ } 
+  
+ .lis-subtema{ 
+    position: relative; 
+    list-style: none; 
+     text-align: center; 
+ } 
+ 
+   .temas .a-tema{ 
+     text-decoration: none; 
+    text-transform: uppercase; 
+    display: flex; 
+    line-height: 70px; 
+    padding: 0 15px; 
+ } 
+   
+ .autor{ 
+     margin-left: 15px; 
+ } 
+ .a-tema:hover{ 
+     color: white; 
+} 
+ 
+   .temas:hover .subtemas{ 
+     display: flex; 
+    flex-direction: column; 
+    color:white; 
+    transition: .4ms; 
+ } 
+
+   .lis-subtema{ 
+     border-bottom: 2px solid rgb(235, 163, 8); 
+    padding: 0 15px; 
+    text-align: center; 
+ } 
+  
+ .lis-subtema:hover{ 
+    background-color: #FCF3CF; 
+ } 
+
+   .lis-subtema a{ 
+     text-decoration: none; 
+  display: flex; 
+     padding:15px 0; 
+     color: black; 
+    line-height: unset; 
+     white-space: nowrap; /*El texto no se vaya a dos lineas*/ 
+ } 
+ 
+  
+main{ 
+    display: flex; 
+ } 
+ 
+ .aside-facebok{ 
+     padding: 50px 20px; 
+} 
+ 
+
+header {
+   background-color: rgb(236, 233, 241);
+
+   
+}
+nav{
+   background-color: darkcyan;
+   padding: 10px;
+}
+section{
+   width: 65%;
+   float: left;
+   background-color: peru;
+   
+}
+aside{
+   width: 35%;
+   float:left;
+   background-color:violet;
+   
+}
+footer{
+   background-color: powderblue;
+   padding: 10px;
+}
+.contenedor::after{
+   content: "";
+   display: block;
+clear: both;
+}
+  
+  
+.opciones{ 
+      list-style: none; 
+      display: flex; 
+      justify-content: center; 
+  } 
+ 
+    
