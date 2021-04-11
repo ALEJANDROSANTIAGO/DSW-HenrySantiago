@@ -59,8 +59,10 @@ padding:10px 50px;
 }
 .index-imagen2{ 
    float:right;
-width: 40%;
-padding:10px 50px;
+width: 28%;
+padding:0px 150px;
+
+height: 350px;
 }
 .fotoestudiant{ 
    float:right;
@@ -133,6 +135,14 @@ section{
    background-color: white;
    text-justify:distribute;
    
+}
+.section2{
+   width: 75%;
+   float: left;
+   background-color: white;
+   text-justify:center;
+   width: 100%
+
 }
  
 
