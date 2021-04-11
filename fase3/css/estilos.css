@@ -2,24 +2,21 @@
   body{ 
       font-family: Poppins, Serif; 
   } 
+
 .imagencabecera{ 
     float: right;
  width: 40%;
 }
 
+   .temas{ 
+        font-weight: bold; 
+   }
 
-    .temas{ 
-    padding: 0 20px; 
-    font-weight: bold; 
-   } 
    .logounad{ 
        float: left;
     width: 60%;
-} 
-.index-imagen{ 
-   float: left;
-width: 60%;
-}
+
+   }
 
     .menu_Contenedor{ 
     display: flex; 
@@ -53,11 +50,29 @@ width: 60%;
     display: flex; 
     line-height: 70px; 
     padding: 0 15px; 
- } 
-   
+ }
+
+ .index-imagen{ 
+   float:right;
+width: 40%;
+padding:10px 50px;
+}
+.index-imagen2{ 
+   float:right;
+width: 40%;
+padding:10px 50px;
+}
+.fotoestudiant{ 
+   float:right;
+width: 20%;
+padding:20px 50px;
+margin-left: 15px;
+}
+
  .autor{ 
      margin-left: 15px; 
  } 
+
  .a-tema:hover{ 
      color: white; 
 } 
@@ -71,7 +86,7 @@ width: 60%;
 
    .lis-subtema{ 
      border-bottom: 2px solid rgb(235, 163, 8); 
-    padding: 0 15px; 
+     padding: 0 15px; 
     text-align: center; 
  } 
   
@@ -82,13 +97,21 @@ width: 60%;
    .lis-subtema a{ 
      text-decoration: none; 
   display: flex; 
-     padding:15px 0; 
+  padding:15px 0; 
      color: black; 
     line-height: unset; 
-     white-space: nowrap; /*El texto no se vaya a dos lineas*/ 
+     white-space: nowrap; 
  } 
- 
-  
+
+ .normasapa
+ { 
+   text-align: justify;
+   font-style: italic; 
+} 
+ .parrafo
+ { 
+   text-align: justify; 
+} 
 main{ 
     display: flex; 
  } 
@@ -96,7 +119,7 @@ main{
  
 
 header {
-   background-color: rgb(236, 233, 241);
+   background-color: white;
 
    
 }
@@ -107,9 +130,12 @@ nav{
 section{
    width: 75%;
    float: left;
-   background-color: peru;
+   background-color: white;
+   text-justify:distribute;
    
 }
+ 
+
 aside{
    width: 25%;
    float:right;
